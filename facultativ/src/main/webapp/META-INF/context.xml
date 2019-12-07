@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/facultativ">
+    <Resource driverClassName="com.mysql.jdbc.Driver"
+              name="dbusers"
+              type="javax.sql.DataSource"
+              url="jdbc:mysql://localhost:3306/db_users"              
+              password="user"
+              username="user" 
+    /> 
+</Context>
